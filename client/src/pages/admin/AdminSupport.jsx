@@ -1,0 +1,2 @@
+import React from 'react'; import Header from '../../components/common/Header';
+export default function Page() { return (<><Header title="Admin" /><div className="page-body"><div className="card" style={{textAlign:'center',padding:'60px 20px',color:'var(--text-muted)'}}>🏛️ Full admin panel — connect to MongoDB backend to see live data.<br/><br/><code style={{fontSize:'0.8rem',background:'rgba(255,255,255,0.05)',padding:'4px 10px',borderRadius:6}}>npm run seed && npm run dev</code></div></div></>); }

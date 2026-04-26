@@ -1,0 +1,11 @@
+{
+  "name": "ghmc-civic-fullstack",
+  "version": "3.0.0",
+  "scripts": {
+    "install:all": "cd server && npm install && cd ../client && npm install",
+    "seed": "cd server && npm run seed",
+    "server": "cd server && npm run dev",
+    "client": "cd client && npm run dev",
+    "dev": "echo 'Open TWO terminals: run npm run server in one, npm run client in another'"
+  }
+}
